@@ -23,8 +23,8 @@ public void validatebing() throws IOException{
 	wd.get("http://www.bing.com/");
 	WebElement input=wd.findElement(By.name("q"));
 	input.sendKeys("chennai");
-	input.submit();
 	File ss=((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
-	FileHandler.copy(ss, new File("C:/java program/workspace/J1_Git/file/bing.png"));
+	FileHandler.copy(ss, new File("C:/java program/workspace/J1_Git/file/bing1.png"));
 }
 }
+	

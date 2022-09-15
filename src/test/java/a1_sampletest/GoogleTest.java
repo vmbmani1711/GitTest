@@ -23,8 +23,8 @@ public class GoogleTest {
 		wd.get("http://www.google.com/");
 		WebElement input=wd.findElement(By.name("q"));
 		input.sendKeys("chennai");
-		input.submit();
 		File ss=((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
-		FileHandler.copy(ss, new File("C:/java program/workspace/J1_Git/file/google.png"));
+		FileHandler.copy(ss, new File("C:/java program/workspace/J1_Git/file/google1.png"));
 	}
 }
+		
